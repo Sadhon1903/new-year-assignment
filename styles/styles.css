@@ -4,6 +4,7 @@
     */ background: #FFF;
     font-family: Inter;
     align-items: center;
+    align-content: center;
 }
 
 .banner-card img {
@@ -171,6 +172,37 @@ font-size: small;
 .holiday p{
     padding: 0 25%;
 }
+.sale-discount{
+    display: flex;
+}
+.six-images{
+    width: fit-content;
+    display: flex;
+    column-gap: 10px;
+    flex-wrap: wrap;
+}
+.newsletter{
+    padding: 10%;
+    text-align: center;
+}
+
+.subscribe input {
+    padding: 10px;
+    border-radius: 20px;
+}
+.subscribe button{
+    padding: 10px;
+    border-radius: 20px;
+    color: #FFF;
+    background-color: #F00;
+    border: none;
+}
+.finish{
+text-align: center;
+
+}
+
+
 
 /* font-family: 'Inter', sans-serif; */
 /* font-family: 'Merriweather', serif; */
