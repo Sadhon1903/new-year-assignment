@@ -124,12 +124,19 @@
     border-style: none;
 }
 .best-offer{
+    margin-top: 10%;
     padding: 20px;
     display: flex;
     column-gap: 5%;
 }
 .new{
     width: 30%;
+}
+.year p{
+font-size: small;
+}
+.new p{
+font-size: small;
 }
 .best-offer .year img{
     width: 50%;
@@ -138,7 +145,9 @@
     width: 100%;
 }
 .best-offer .round-image .zero{
-    border-style: solid red;
+    border-radius: 50%;
+    padding: 10px;
+    border: 10px solid red;
 }
 
 /* font-family: 'Inter', sans-serif; */
