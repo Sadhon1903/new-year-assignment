@@ -124,13 +124,22 @@
     border-style: none;
 }
 .best-offer{
+    padding: 20px;
     display: flex;
+    column-gap: 5%;
 }
-.best-offer .new{
-    width: 33%;
+.new{
+    width: 30%;
+}
+.best-offer .year img{
+    width: 50%;
 }
 .best-offer img{
     width: 100%;
 }
+.best-offer .round-image .zero{
+    border-style: solid red;
+}
+
 /* font-family: 'Inter', sans-serif; */
 /* font-family: 'Merriweather', serif; */
