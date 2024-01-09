@@ -123,6 +123,14 @@
     text-transform: uppercase;
     border-style: none;
 }
-
+.best-offer{
+    display: flex;
+}
+.best-offer .new{
+    width: 33%;
+}
+.best-offer img{
+    width: 100%;
+}
 /* font-family: 'Inter', sans-serif; */
 /* font-family: 'Merriweather', serif; */
